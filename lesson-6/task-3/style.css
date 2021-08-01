@@ -1,0 +1,20 @@
+img[alt='Pollution'] {
+  border: 5px dashed red;
+}
+
+img[src$='.jpg'] {
+  margin-left: 50px;
+}
+
+ul li[data-description~='even'] {
+  background-color: grey;
+}
+
+a[href^="https://"]
+{
+  color: green;
+}
+
+span[lang|='en'] {
+  font-size: 28px;
+}
