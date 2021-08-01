@@ -12,7 +12,7 @@
   background-color: orange;
 }
 
-.to-be-learned h4 > code {
+.to-be-learned h4 > code, li > code{
   background-color: green;
 }
 
