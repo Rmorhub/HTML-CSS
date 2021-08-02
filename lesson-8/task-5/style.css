@@ -1,0 +1,20 @@
+div {
+    padding: 50px;
+}
+
+.rectangle1 {
+    margin: 50px;
+    background-color: blue;
+}
+
+.rectangle2 {
+    background-color: yellow;
+}
+
+.rectangle3 {
+    background-color: green;
+}
+
+.rectangle4 {
+    background-color: pink;
+}
