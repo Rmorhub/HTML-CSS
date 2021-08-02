@@ -1,27 +1,26 @@
+
 .header {
   background-color: darkturquoise;
   height: 40px;
-  width: 100%;
+  color: white;
+  line-height: 2.5;
   position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  
 }
 
-.navigation {
-  height: 40px;
-}
 
 .nav-list {
   margin: 0;
-  line-height: 2.5;
+  height: 40px;
 }
 
 .nav-item {
-  color: white;
-  margin-right: 16px;
   display: inline;
-}
-
-.nav-item:nth-child(3) {
-  margin-right: 0;
+  margin-left: 16px;
 }
 
 .content {
