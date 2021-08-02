@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+    flex-basis: 300px;
+}
+
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+}
