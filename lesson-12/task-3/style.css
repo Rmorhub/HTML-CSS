@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.list {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+.third {
+    text-decoration: underline green;
+    text-decoration-style:wavy;
+}
+
+.second {
+    text-decoration:line-through
+}
+
+.first {
+    text-decoration: overline red;
+}
