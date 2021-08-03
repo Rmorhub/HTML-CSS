@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+}
+
+.thumb{
+    margin: 8px;
+}
+
+.thumb:hover {
+    cursor: all-scroll;
+}
+
+.gallery {
+    overflow-x: scroll;
+    display: flex;
+}
