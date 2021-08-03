@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .image {
     display: inline-block;
     width: 200px;
