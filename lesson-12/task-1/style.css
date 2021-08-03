@@ -1,0 +1,33 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+section {
+  margin: 32px;
+}
+
+h1 {
+    text-align: center;
+    word-spacing: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 28px;
+}
+
+.abbreviature {
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+em {
+    color: gray;
+}
