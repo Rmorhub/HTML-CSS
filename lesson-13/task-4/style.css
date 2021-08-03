@@ -2,8 +2,11 @@
     box-sizing: border-box;
 }
 
+.gallery {
+    display: flex;
+}
+
 .image {
-    display: inline-block;
     width: 200px;
     height: 200px;
     background-size: contain;
