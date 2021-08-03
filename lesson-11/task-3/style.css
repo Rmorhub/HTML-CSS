@@ -35,6 +35,10 @@
   list-style-type: none;
 }
 
+.dropdown:hover .menu-button {
+    opacity: 1;
+}
+
 .dropdown:hover .menu-list {
   display: block;
   opacity: 1;
