@@ -1,4 +1,7 @@
+*{
+    box-sizing: border-box;
+}
 
-.form-control {
+.form {
     margin: 16px;
 }
