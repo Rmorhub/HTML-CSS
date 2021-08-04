@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
 }
-.image_container {
-    margin: 0;
-}
 
 .main-image {
   display: block;
