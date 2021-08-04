@@ -3,13 +3,15 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   background-color: bisque;
 }
 
 .page {
-  margin: 0 auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: aqua;
   font-family: monospace;
   font-size: 16px;
