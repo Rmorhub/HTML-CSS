@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+.Youtube-video {
+    display: block;
+    margin: 100px auto;
+    height: 400px;
+    width: 500px;
+}
