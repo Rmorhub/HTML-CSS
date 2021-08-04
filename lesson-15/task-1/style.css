@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
-.image_container {
+.image-container {
   margin: 50px 0px;
 }
 
 .main-image {
   display: block;
-  margin: auto;
-  max-width: 100%;
+  margin: 0 auto;
   border-radius: 20px;
+  max-width: 100%;
 }
 
 .gallery {
