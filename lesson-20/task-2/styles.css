@@ -18,6 +18,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-weight: 700;
+  text-transform: uppercase;
   animation: jump 0.5s 0.4s ease-in-out, rotate 0.5s ease-in-out, run 1s 2s ease forwards;
 }
 
