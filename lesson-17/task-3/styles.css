@@ -17,7 +17,7 @@ td {
 }
 
 .first-line td {
-    border: solid black;
+    border: 1px solid black;
 }
 
 .first-line td:nth-child(odd) {
@@ -30,7 +30,7 @@ td {
 }
 
 .second-line td {
-    border: solid black;
+    border: 1px solid black;
 }
 
 .second-line td:nth-child(even) {
@@ -43,7 +43,7 @@ td {
 }
 
 .third-line td {
-    border: solid black;
+    border: 1px solid black;
 }
 
 .third-line td:nth-child(odd) {
@@ -56,7 +56,7 @@ td {
 }
 
 .fourth-line td {
-    border: solid black;
+    border: 1px solid black;
 }
 
 .fourth-line td:nth-child(even) {
@@ -69,7 +69,7 @@ td {
 }
 
 .fifth-line td {
-    border: solid black;
+    border: 1px solid black;
 }
 
 .fifth-line td:nth-child(odd) {
@@ -82,7 +82,7 @@ td {
 }
 
 .sixth-line td {
-    border: solid black;
+    border: 1px solid black;
 }
 
 .sixth-line td:nth-child(even) {
@@ -95,7 +95,7 @@ td {
 }
 
 .seventh-line td {
-    border: solid black;
+    border: 1px solid black;
 }
 
 .seventh-line td:nth-child(odd) {
@@ -108,7 +108,7 @@ td {
 }
 
 .eighth-line td {
-    border: solid black;
+    border: 1px solid black;
 }
 
 .eighth-line td:nth-child(even) {
