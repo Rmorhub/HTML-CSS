@@ -33,8 +33,6 @@
 
 .spinner {
     position: relative;
-    animation: blinking 2s;
-    animation-iteration-count: infinite;
 }
 
 .spinner-text {
@@ -42,15 +40,17 @@
     font-size: 16px;
     text-transform: uppercase;
     transition-timing-function: linear;
+    animation: blinking 2s;
+    animation-iteration-count: infinite;
 }
 
 .rect {
-    position: relative;
+    position: absolute;
     width: 10px;
     height: 4px;
     border-radius: 2px;
     background-color: black;
-    animation: moving 2s;
+    animation: moving 2s, blinking 2s;
     animation-direction:alternate;
     animation-iteration-count: infinite;
 }
