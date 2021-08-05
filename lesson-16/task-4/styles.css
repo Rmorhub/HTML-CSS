@@ -6,14 +6,11 @@ body {
   background-color: bisque;
 }
 
-.page {
+.login-form {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.login-form {
   width: 300px;
   font-family: monospace;
   padding: 16px;
