@@ -36,42 +36,25 @@
 }
 
 .circle {
-    margin: auto;
+    margin: 0 auto;
     margin-bottom: 8px;
     height: 50px;
     width: 50px;
-    transform: rotate(45deg);
     border-radius: 25px;
     border: 4px solid lightgray;
     border-top: 4px solid black;
-    animation: download 2s 2s linear infinite;
+    animation: download 2s linear infinite;
 
 }
 
 @keyframes download {
-    
-    0% {
-        border: 4px solid lightgray;
-        border-top: 4px solid black;
+
+    from {
+        transform: rotate(0);
     }
 
-    25% {
-        border: 4px solid lightgray;
-        border-right: 4px solid black;
+    to {
+        transform: rotate(360deg);
     }
-
-    50% {
-        border: 4px solid lightgray;
-        border-bottom: 4px solid black;
-    }
-
-    75% {
-        border: 4px solid lightgray;
-        border-left: 4px solid black;
-    }
-
-    100% {
-        border: 4px solid lightgray;
-        border-top: 4px solid black;
-    }
+      
 }
