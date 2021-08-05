@@ -24,27 +24,23 @@
   }
 }
 
-body {
-    height: 100vh;
-}
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
 }
 
 .spinner {
-    font-family:monospace;
-    font-size: 16px;
-    text-transform: uppercase;
+    position: relative;
     animation: blinking 2s;
     animation-iteration-count: infinite;
 }
 
 .spinner-text {
+    font-family:monospace;
+    font-size: 16px;
+    text-transform: uppercase;
     transition-timing-function: linear;
 }
 
