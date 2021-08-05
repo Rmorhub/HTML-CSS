@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    margin: 16px;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+
+td {
+    width: 50px;
+    height: 50px;
+}
+
+.first-line td {
+    border: solid black;
+}
+
+.first-line td:nth-child(odd) {
+    background-color: black;
+}
+
+.first-line td:first-child, .first-line td:last-child {
+    border: none;
+    background-color: white;
+}
+
+.second-line td {
+    border: solid black;
+}
+
+.second-line td:nth-child(even) {
+    background-color: black;
+}
+
+.second-line td:first-child, .second-line td:last-child {
+    border: none;
+    background-color: white;
+}
+
+.third-line td {
+    border: solid black;
+}
+
+.third-line td:nth-child(odd) {
+    background-color: black;
+}
+
+.third-line td:first-child, .third-line td:last-child {
+    border: none;
+    background-color: white;
+}
+
+.fourth-line td {
+    border: solid black;
+}
+
+.fourth-line td:nth-child(even) {
+    background-color: black;
+}
+
+.fourth-line td:first-child, .fourth-line td:last-child {
+    border: none;
+    background-color: white;
+}
+
+.fifth-line td {
+    border: solid black;
+}
+
+.fifth-line td:nth-child(odd) {
+    background-color: black;
+}
+
+.fifth-line td:first-child, .fifth-line td:last-child {
+    border: none;
+    background-color: white;
+}
+
+.sixth-line td {
+    border: solid black;
+}
+
+.sixth-line td:nth-child(even) {
+    background-color: black;
+}
+
+.sixth-line td:first-child, .sixth-line td:last-child {
+    border: none;
+    background-color: white;
+}
+
+.seventh-line td {
+    border: solid black;
+}
+
+.seventh-line td:nth-child(odd) {
+    background-color: black;
+}
+
+.seventh-line td:first-child , .seventh-line td:last-child {
+    border: none;
+    background-color: white;
+}
+
+.eighth-line td {
+    border: solid black;
+}
+
+.eighth-line td:nth-child(even) {
+    background-color: black;
+}
+
+.eighth-line td:first-child , .eighth-line td:last-child {
+    border: none;
+    background-color: white;
+}
