@@ -47,7 +47,7 @@ main {
 }
 
 .nav-list-link {
-  
+
   text-decoration: none;
   color: #fff;
   min-width: 100%;
@@ -99,7 +99,7 @@ main {
 }
 
 img {
-  max-width: 100%;
+  min-width: 100%;
   margin: auto;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 }
@@ -109,6 +109,21 @@ img {
     flex-wrap: wrap;
   }
   .navigation , .section, .news {
+    width:100%
+  }
+}
+
+@media screen and (max-width: 900px){
+  .main {
+    flex-wrap: wrap;
+  }
+  .navigation {
+    width:20%
+  }
+  .section {
+    width:80%;
+  } 
+  .news {
     width:100%
   }
 }
