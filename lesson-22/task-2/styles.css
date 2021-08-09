@@ -6,14 +6,12 @@
   background-color: #ff7f50;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
 }
 
 .product_list {
   background-color: #006400;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
 }
 
 .news {
@@ -39,7 +37,9 @@
 @media screen and (min-width: 600px) {
   .tablet_view {
       display: flex;
-      flex-grow: 2;
+  }
+  .navigation, .product_list {
+      width: 50vw;
   }
 }
 
@@ -48,4 +48,10 @@
   .container {
     display: flex;
   }
+  
+  .navigation, .product_list, .news {
+      width: 33.3vw
+
+  }
+
 }
