@@ -23,13 +23,11 @@ html {
 
 main {
   display: flex;
-  flex-grow: 1;
 }
 
 .navigation {
   width: 20%;
   padding: 0.5em;
-  flex-grow: 1;
 }
 
 .nav-list {
@@ -64,13 +62,13 @@ main {
   width: 60%;
   font-size: 1.25em;
   padding: 0.5em;
-  flex-grow: 1;
 }
 
 .section__header {
   font-size: 5vw;
   text-align: center;
 }
+
 
 .units-list {
   line-height: 1.75em;
@@ -87,7 +85,6 @@ main {
 .news {
   width: 20%;
   padding: 0.5em;
-  flex-grow: 1;
 }
 
 .footer {
@@ -95,6 +92,7 @@ main {
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .picture_container {
@@ -132,4 +130,3 @@ img {
     width:100%
   }
 }
-
