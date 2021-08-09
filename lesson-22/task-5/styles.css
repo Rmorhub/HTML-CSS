@@ -23,7 +23,6 @@ html {
 
 main {
   display: flex;
-  flex:1 0 auto;
 }
 
 .navigation {
@@ -34,6 +33,7 @@ main {
 
 .nav-list {
   padding: 0;
+  flex-grow: 1;
 }
 
 .nav-list-item {
@@ -95,6 +95,7 @@ main {
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .picture_container {
