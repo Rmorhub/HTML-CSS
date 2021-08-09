@@ -23,6 +23,7 @@ html {
 
 main {
   display: flex;
+  flex: 1;
 }
 
 .navigation {
@@ -33,7 +34,6 @@ main {
 
 .nav-list {
   padding: 0;
-  flex-grow: 1;
 }
 
 .nav-list-item {
