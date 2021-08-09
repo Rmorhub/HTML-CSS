@@ -18,7 +18,7 @@
   background-color: #0ff;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+
 }
 
 .item {
@@ -48,10 +48,8 @@
   .container {
     display: flex;
   }
-  
+
   .navigation, .product_list, .news {
-      width: 33.3vw
-
+      width: calc(100vw /3);
   }
-
 }
