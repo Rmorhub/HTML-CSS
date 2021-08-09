@@ -23,7 +23,7 @@ html {
 
 main {
   display: flex;
-  flex: auto;
+  flex-shrink: 0;
 }
 
 .navigation {
