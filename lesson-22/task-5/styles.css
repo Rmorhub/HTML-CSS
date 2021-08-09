@@ -23,6 +23,7 @@ html {
 
 main {
   display: flex;
+  flex-grow: 1;
 }
 
 .navigation {
@@ -46,7 +47,7 @@ main {
 }
 
 .nav-list-link {
-
+  
   text-decoration: none;
   color: #fff;
   min-width: 100%;
@@ -68,7 +69,6 @@ main {
   font-size: 5vw;
   text-align: center;
 }
-
 
 .units-list {
   line-height: 1.75em;
@@ -92,7 +92,6 @@ main {
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
-  flex-grow: 1;
 }
 
 .picture_container {
@@ -100,7 +99,7 @@ main {
 }
 
 img {
-  max-width: 100%;
+  min-width: 100%;
   margin: auto;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 }
