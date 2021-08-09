@@ -63,12 +63,8 @@ main {
   width: 60%;
   font-size: 1.25em;
   padding: 0.5em;
+  flex-grow: 1;
 }
-
-p {
-  margin-top: 0.8em;
-}
-
 
 .section__header {
   font-size: 5vw;
