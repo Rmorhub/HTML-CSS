@@ -109,6 +109,6 @@ img {
     flex-direction: column;
   }
   .navigation , .section, .news {
-    width:100%
+    max-width:100%
   }
 }
