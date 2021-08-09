@@ -29,6 +29,7 @@ main {
 .navigation {
   width: 20%;
   padding: 0.5em;
+  flex-grow: 1;
 }
 
 .nav-list {
@@ -86,6 +87,7 @@ main {
 .news {
   width: 20%;
   padding: 0.5em;
+  flex-grow: 1;
 }
 
 .footer {
