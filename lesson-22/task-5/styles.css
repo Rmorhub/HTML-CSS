@@ -29,6 +29,7 @@ main {
 .navigation {
   width: 20%;
   padding: 0.5em;
+  flex-grow: 1;
 }
 
 .nav-list {
@@ -63,15 +64,12 @@ main {
   width: 60%;
   font-size: 1.25em;
   padding: 0.5em;
+  flex-grow: 1;
 }
 
 .section__header {
   font-size: 5vw;
   text-align: center;
-}
-
-p {
-  padding-top: 0.5em;
 }
 
 .units-list {
@@ -89,6 +87,7 @@ p {
 .news {
   width: 20%;
   padding: 0.5em;
+  flex-grow: 1;
 }
 
 .footer {
