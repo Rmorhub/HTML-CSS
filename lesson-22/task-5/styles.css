@@ -99,7 +99,7 @@ main {
 }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
   margin: auto;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 }
@@ -109,6 +109,6 @@ img {
     flex-direction: column;
   }
   .navigation , .section, .news {
-    max-width:100%
+    width:100%
   }
 }
