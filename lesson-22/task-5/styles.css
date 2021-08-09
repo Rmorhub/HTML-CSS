@@ -106,7 +106,7 @@ img {
 
 @media screen and (max-width: 600px){
   .main {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .navigation , .section, .news {
     width:100%
