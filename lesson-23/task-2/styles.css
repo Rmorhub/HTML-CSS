@@ -22,12 +22,12 @@
 }
 @media screen and (min-width: 600px) {
   .square {
-    background-color: #a61;
+    background-color: #8a2be2;
   }
 }
 @media screen and (min-width: 900px) {
   .square {
-    background-color: #8a2be2;
+    background-color: #a61;
   }
 }
 @media screen and (min-width: 1200px) {
