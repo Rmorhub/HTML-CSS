@@ -19,6 +19,7 @@ html {
   justify-content: center;
   background-image:linear-gradient(60deg,red,orange);
   color: #fff;
+  width: 100vw;
 }
 
 main {
@@ -95,6 +96,7 @@ main {
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
+  width:100vw;
 }
 
 .picture_container {
@@ -110,10 +112,6 @@ img {
 @media screen and (max-width: 900px){
   .main {
     flex-wrap: wrap;
-  }
-
-  .navigation {
-    width: 20%;
   }
 
   .section {
