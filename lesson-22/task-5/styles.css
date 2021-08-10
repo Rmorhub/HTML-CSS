@@ -29,11 +29,10 @@ main {
 .navigation {
   width: 20%;
   padding: 0.5em;
-  flex-shrink: 1;
 }
 
 .nav-list {
-  padding: 0;
+  padding: 0px;
 }
 
 .nav-list-item {
@@ -41,14 +40,13 @@ main {
   align-items: center;
   list-style-type: none;
   text-decoration: none;
-  padding: 0;
+  padding: 0px;
   background-color: #808080;
   height: 2em;
   margin-bottom: 0.5em;
 }
 
 .nav-list-link {
-  
   text-decoration: none;
   color: #fff;
   min-width: 100%;
@@ -57,14 +55,12 @@ main {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
 }
 
 .section {
   width: 60%;
   font-size: 1.25em;
   padding: 0.5em;
-  flex-shrink: 1;
 }
 
 .section__header {
@@ -81,13 +77,11 @@ main {
   background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
-
 }
 
 .news {
   width: 20%;
   padding: 0.5em;
-  flex-shrink: 1;
 }
 
 .footer {
@@ -95,11 +89,6 @@ main {
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
-  width:100vw;
-}
-
-.picture_container {
-  display: flex;
 }
 
 img {
