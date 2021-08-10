@@ -19,7 +19,6 @@ html {
   justify-content: center;
   background-image:linear-gradient(60deg,red,orange);
   color: #fff;
-  width: 100vw;
 }
 
 main {
@@ -30,7 +29,7 @@ main {
 .navigation {
   width: 20%;
   padding: 0.5em;
-  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .nav-list {
@@ -65,7 +64,7 @@ main {
   width: 60%;
   font-size: 1.25em;
   padding: 0.5em;
-  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .section__header {
@@ -88,7 +87,7 @@ main {
 .news {
   width: 20%;
   padding: 0.5em;
-  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .footer {
