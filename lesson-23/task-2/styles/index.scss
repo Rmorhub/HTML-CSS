@@ -21,6 +21,10 @@
     margin: 8px;
     background-color: #ff7f50;
 
+    @include for-small {
+        background-color: #a61;
+    }
+
     @include for-medium {
         background-color: #8a2be2;
     }
