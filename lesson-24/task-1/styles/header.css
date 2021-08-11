@@ -1,15 +1,76 @@
-
 .header {
-  width: 1140px;
-  height: 62px;
-  margin: auto;
+  height: 64px;
+  width: 100%;
+  background-color: #fff;
   display: flex;
+  align-items: center;
+  padding-left: 15px;
 }
 
 .navigation {
+  display: none;
+}
+
+.header__button {
+  display: none;
+}
+
+.header__menu-button {
+  width: 58px;
+  border: none;
+  border-left: 1px solid #00000026;
+  height: 100%;
   margin-left: auto;
-  margin-top: 7px;
-  margin-right: 75px;
+  background: transparent;
+}
+
+.header__menu-icon {
+  width: 18px;
+  height: 13px;
+  background-image: url('../img/icon-humburger.png');
+  display: inline-block;
+
+}
+
+@media screen and (min-width: 400px) {
+  .top-section {
+    background-color: #f3c6bd;
+    padding-top: 39px;
+  }
+
+  .header__menu-button {
+    display: none;
+  }
+  .navigation {
+    display: block;
+    margin-left: auto;
+    margin-top: 7px;
+    margin-right: 75px;
+  }
+
+  .header {
+    background-color: #f3c6bd;
+    width: 1140px;
+    height: 62px;
+    margin: auto;
+    display: flex;
+  }
+
+  .header__button {
+    display: block;
+  }
+
+  .logo__description {
+    font-size: 18px;
+    line-height: 25px;
+    color: #2b292d;
+    opacity: 0.6;
+  }
+  .logo__image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
 }
 
 .navigation__item {
@@ -32,7 +93,7 @@
   display: inline-block;
   height: 5px;
   width: 8px;
-  background-image: url(img/arrow.png);
+  background-image: url('../img/arrow.png');
   margin-left: 11px;
 }
 
@@ -41,9 +102,9 @@
 }
 
 .logo__image {
-  width: 60px;
-  height: 60px;
-  margin-right: 15px;
+  width: 48px;
+  height: 48px;
+  margin-right: 13px;
 }
 
 .logo__text {
@@ -59,8 +120,9 @@
 }
 
 .logo__description {
-  font-size: 18px;
-  line-height: 25px;
-  color: #2b292d;
-  opacity: 0.6;
+  display: none;
+}
+
+.top-section {
+  background-color: #f3c6bd;
 }
