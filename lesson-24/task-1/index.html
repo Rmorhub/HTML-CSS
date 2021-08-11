@@ -14,12 +14,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/headline.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="page">
-
       <div class="top-section">
         <header class="header">
           <div class="logo">
@@ -38,13 +41,34 @@
               >Library<i class="navigation__arrow"></i
             ></a>
           </nav>
-          <button class="header__button">Get Started</button>
+          <button class="action-button">Get Started</button>
         </header>
-        <section></section>
+
+        <!-- Headline -->
+
+        <section class="headline">
+          <div class="headline__content">
+            <h1 class="headline__title">Build stunning websites & apps.</h1>
+            <p class="headline__description">
+              Create live segments and target the right people for messages
+              based on their behaviors.
+            </p>
+            <div class="headline__actions">
+              <button class="action-button">Get Started</button>
+              <button class="headline__learn-more-btn">Learn More</button>
+            </div>
+          </div>
+          <img
+            class="headline__banner"
+            src="img/ouch.png"
+            alt="Headline Banner"
+          />
+        </section>
       </div>
 
-      <footer class="footer">
+      <!-- Footer -->
 
+      <footer class="footer">
         <div class="footer-navigation">
           <div class="about-company">
             <div class="logo">
@@ -59,12 +83,15 @@
               helps to build a website in no time.
             </p>
             <div class="downloads">
-              <img class="downloads__item" src="img/app-store.png" alt="Apple Store Download">
-              <img src="img/google-play.png" alt="Google Play Download">
+              <img
+                class="downloads__item"
+                src="img/app-store.png"
+                alt="Apple Store Download"
+              />
+              <img src="img/google-play.png" alt="Google Play Download" />
             </div>
           </div>
           <div class="additional-navigation">
-
             <div class="additional-navigation__column nav-links">
               <h3 class="nav-links__title">Product</h3>
               <ul class="nav-links__list">
@@ -85,8 +112,6 @@
                 <li class="nav-links__list-item">Support</li>
               </ul>
             </div>
-
-            
           </div>
         </div>
 
@@ -119,7 +144,6 @@
             /></a>
           </div>
         </div>
-
       </footer>
     </div>
   </body>
