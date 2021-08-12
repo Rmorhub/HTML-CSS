@@ -3,7 +3,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 399px) {
   .features {
     display: none;
   }
