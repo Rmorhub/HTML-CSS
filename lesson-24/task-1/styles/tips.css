@@ -29,6 +29,9 @@
 .tip__decoration {
   margin: 0;
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tip__description {
@@ -51,6 +54,7 @@
   text-align: center;
   color: rgba(43, 41, 45, 0.6);
   margin-top: 20px;
+  max-width: 100%;
 
 }
 
