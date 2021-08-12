@@ -3,6 +3,7 @@
   flex-direction: column;
   margin-top: auto;
 
+
   &__description {
     display: none;
     line-height: 26px;
@@ -23,7 +24,7 @@
     margin: 0;
     margin-top: 40px;
 
-    @mixin for-large-up {
+    @include for-large-up {
       margin: 0;
     }
   }
@@ -44,7 +45,7 @@
   display: flex;
   flex-direction: column;
 
-  @mixin for-large-up {
+  @include for-large-up {
     width: 1140px;
     margin: 0 auto;
     height: 338px;
@@ -58,7 +59,7 @@
   display: flex;
   justify-content: center;
 
-  @mixin for-large-up {
+  @include for-large-up {
     margin: 0;
     margin-top: 25px;
     justify-content: left;
@@ -75,7 +76,7 @@
   display: flex;
   flex-direction: column;
 
-  @mixin for-large-up {
+  @include for-large-up {
     margin-top: 60px;
     flex-direction: row;
     margin-left: auto;
@@ -85,7 +86,7 @@
     // margin-right: 29px;
     margin-top: 30px;
 
-    @mixin for-large-up {
+    @include for-large-up {
       margin-right: 29px;
       margin-top: 0;
     }
