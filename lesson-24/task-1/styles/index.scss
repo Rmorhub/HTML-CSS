@@ -7,9 +7,10 @@
 @import 'customers';
 @import 'features';
 @import 'tips';
+@import 'audience';
 @import 'order';
 @import 'footer';
-@import 'breakpoints';
+
 * {
   box-sizing: border-box;
 }
@@ -23,12 +24,11 @@ html {
 .page {
   width: 100%;
 
-  @include for-large-up{
+  @include for-large-up {
     max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
   }
 }
