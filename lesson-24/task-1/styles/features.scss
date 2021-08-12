@@ -6,6 +6,10 @@
     display: none;
   }
 
+  @include for-large-up {
+    margin-bottom: 50px;
+  }
+
   &__content {
     width: 1140px;
     margin: auto;
