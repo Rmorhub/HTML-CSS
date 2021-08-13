@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.price-card {
+  width: 100vw;
+  height: 1000px;
+  background-color: #141b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price-card__popular {
+  position: relative;
+}
+.price-card__popular-text {
+  position: absolute;
+  height: 123px;
+  width: 122px;
+  font-size: 14px;
+  font-weight: 700;
+  width: 147px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #dc3f45;
+  text-align: center;
+  text-transform: uppercase;
+  top: 31px;
+  right: -30px;
+  transform: rotate(45deg);
+}
+.price-card__container {
+  height: 770px;
+  width: 380px;
+  background-color: #334247;
+  margin: 9px;
+}
+.price-card__title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  margin: 33px 0px 0px 0px;
+}
+.price-card__subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+}
+.price-card__cheap, .price-card__medium, .price-card__expensive {
+  margin: 0;
+  margin-top: 33px;
+  padding: 19px 110px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+}
+.price-card__cheap, .price-card__btn-green {
+  background-color: #5bb189;
+}
+.price-card__medium, .price-card__btn-blue {
+  background-color: #3a6ba5;
+}
+.price-card__expensive, .price-card__btn-orange {
+  background-color: #ec632a;
+}
+.price-card__description {
+  margin: 40px 26px 0px 26px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.price-card__content {
+  margin: 40px 0px 0px 0px;
+  padding: 0;
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.price-card__content-item {
+  padding: 16px 21px 16px 22px;
+}
+.price-card__content-item:nth-child(odd) {
+  background-color: #2a3438;
+}
+.price-card__content-item-checkmark {
+  padding-right: 22px;
+}
+.price-card__btn-green, .price-card__btn-blue, .price-card__btn-orange {
+  margin: 40px 112px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 11px 27px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
