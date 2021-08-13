@@ -82,9 +82,10 @@
     }
 
     @include for-large-up {
+      text-align: center;
       margin-top: 0;
       margin-left: 10px;
-      flex-shrink: 1;
+      flex-shrink: 0;
     }
   }
 

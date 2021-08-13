@@ -737,9 +737,10 @@
 }
 @media screen and (min-width: 1400px) {
   .order__button {
+    text-align: center;
     margin-top: 0;
     margin-left: 10px;
-    flex-shrink: 1;
+    flex-shrink: 0;
   }
 }
 .order__terms {
