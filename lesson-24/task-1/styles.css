@@ -504,7 +504,8 @@
 }
 .audience__title {
   margin: 0;
-  padding-top: 51px;
+  margin-top: 1px;
+  padding-top: 50px;
   text-align: center;
   font-size: 22px;
   line-height: 34px;
@@ -635,7 +636,7 @@
   }
 }
 .audience__interactive-square:last-child {
-  margin-bottom: 50px;
+  margin-bottom: 49px;
 }
 @media screen and (min-width: 1400px) {
   .audience__interactive-square:last-child {
@@ -701,11 +702,6 @@
   font-size: 24px;
   line-height: 34px;
   margin-top: 18px;
-}
-@media screen and (min-width: 1400px) {
-  .order__text {
-    margin-top: 18px;
-  }
 }
 @media screen and (min-width: 1400px) {
   .order__form {
