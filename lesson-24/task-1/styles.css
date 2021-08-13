@@ -488,12 +488,13 @@
 }
 
 .audience {
-  padding: 0 15px;
+  padding: 50px 15px;
   background-color: rgba(0, 161, 198, 0.07);
 }
 @media screen and (min-width: 1400px) {
   .audience {
     margin: 0;
+    padding-bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -501,7 +502,6 @@
 }
 .audience__title {
   margin: 0;
-  padding-top: 52px;
   text-align: center;
   font-size: 22px;
   line-height: 34px;
@@ -629,9 +629,6 @@
   .audience__interactive-square:first-child {
     margin: 0;
   }
-}
-.audience__interactive-square:last-child {
-  margin-bottom: 50px;
 }
 @media screen and (min-width: 1400px) {
   .audience__interactive-square:last-child {
