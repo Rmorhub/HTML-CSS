@@ -28,21 +28,22 @@
   }
 
   &__title {
+    margin: 0;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.357143px;
     margin-top: 40px;
-    letter-spacing: -0.25px;
     @include for-large-up {
     margin-bottom: 0;
+    letter-spacing: -0.25px;
   }
   }
 
   &__text {
     margin: 0;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 22px;
+    line-height: 32px;
     margin-top: 18px;
     @include for-large-up {
     margin-top:12px
@@ -85,7 +86,7 @@
 
     @include for-large-up {
       margin-top: 0;
-      margin-left: 5px;
+      margin-left: 10px;
       flex-shrink: 0;
     }
   }
