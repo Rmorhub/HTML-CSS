@@ -504,8 +504,7 @@
 }
 .audience__title {
   margin: 0;
-  margin-top: 1px;
-  padding-top: 50px;
+  padding-top: 51px;
   text-align: center;
   font-size: 22px;
   line-height: 34px;
@@ -636,7 +635,7 @@
   }
 }
 .audience__interactive-square:last-child {
-  margin-bottom: 49px;
+  margin-bottom: 50px;
 }
 @media screen and (min-width: 1400px) {
   .audience__interactive-square:last-child {
