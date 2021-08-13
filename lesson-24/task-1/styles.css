@@ -4,6 +4,7 @@
   width: 160px;
   height: 48px;
   font-size: 18px;
+  line-height: 13px;
   font-weight: 700;
   border-radius: 2px;
   border: none;
@@ -687,7 +688,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.25px;
+  letter-spacing: -0.357143px;
   margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
