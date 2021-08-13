@@ -688,12 +688,23 @@
   line-height: 40px;
   letter-spacing: -0.357143px;
   margin-top: 40px;
+  letter-spacing: -0.25px;
+}
+@media screen and (min-width: 1400px) {
+  .order__title {
+    margin-bottom: 0;
+  }
 }
 .order__text {
   margin: 0;
   font-size: 24px;
   line-height: 34px;
   margin-top: 18px;
+}
+@media screen and (min-width: 1400px) {
+  .order__text {
+    margin-top: 12px;
+  }
 }
 @media screen and (min-width: 1400px) {
   .order__form {
@@ -739,6 +750,11 @@
   font-size: 14px;
   line-height: 22px;
   color: #2b292d99;
+}
+@media screen and (min-width: 1400px) {
+  .order__terms {
+    margin-top: 10px;
+  }
 }
 .order__terms-link {
   color: #3142c6;
