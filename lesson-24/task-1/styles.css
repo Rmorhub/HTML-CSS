@@ -493,6 +493,7 @@
 }
 @media screen and (min-width: 1400px) {
   .audience {
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -500,7 +501,7 @@
 }
 .audience__title {
   margin: 0;
-  padding-top: 52px;
+  padding-top: 50px;
   text-align: center;
   font-size: 22px;
   line-height: 34px;
@@ -513,11 +514,16 @@
     margin-top: 108px;
   }
 }
+.audience__border-subtitle {
+  margin: 0;
+  padding: 0;
+}
 @media screen and (min-width: 1400px) {
-  .audience__border-text {
+  .audience__border-subtitle {
     height: 112px;
     width: 555px;
     margin: auto;
+    margin-top: 24px;
   }
 }
 .audience__subtitle {
@@ -527,19 +533,29 @@
   font-weight: 700;
   letter-spacing: -0.36px;
   margin: 0;
-  margin-top: 17px;
+  margin-top: 18px;
 }
 @media screen and (min-width: 1400px) {
   .audience__subtitle {
     margin: 0;
-    margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
   }
 }
-.audience__text {
+.audience__border-text {
   margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 1400px) {
+  .audience__border-text {
+    height: 72px;
+    width: 555px;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+.audience__text {
   text-align: center;
   font-size: 24px;
   line-height: 34px;
@@ -549,13 +565,25 @@
 @media screen and (min-width: 1400px) {
   .audience__text {
     margin: 0;
-    margin-top: 40px;
   }
+}
+.audience__actions {
+  margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .audience__actions {
     justify-content: center;
-    margin-top: 24px;
+    margin-top: 30px;
+  }
+}
+.audience__actions-btn-down {
+  color: #000;
+  margin-top: 12px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__actions-btn-down {
+    margin: 0;
+    margin-left: 10px;
   }
 }
 .audience__interactive-container {
@@ -579,8 +607,8 @@
   height: 300px;
   width: 290px;
   background-color: #fff;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
   border-radius: 8px;
-  box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.1);
   margin-top: 15px;
 }
 @media screen and (min-width: 1400px) {
