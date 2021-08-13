@@ -6,7 +6,6 @@
   font-size: 18px;
   font-weight: 700;
   border-radius: 2px;
-  box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.1);
   border: none;
 }
 .action-button:hover {
@@ -66,7 +65,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url("img/icon-humburger.png");
+  background-image: url("img/icon-hamburger.png");
   display: inline-block;
 }
 .header .logo__description {
@@ -130,10 +129,23 @@
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (min-width: 1400px) {
+  .logo__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}
 .logo__name {
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
+}
+@media screen and (min-width: 1400px) {
+  .logo__name {
+    color: #2b292d;
+  }
 }
 
 .top-section {
@@ -220,7 +232,6 @@
   border-radius: 2px;
   border: none;
   margin-top: 15px;
-  box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.1);
 }
 @media screen and (min-width: 1400px) {
   .headline__learn-more-btn {
