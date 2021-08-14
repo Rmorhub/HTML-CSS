@@ -1,4 +1,4 @@
-.price-card {
+.page {
   width: 1440px;
   height: 100vh;
   background-color: #141b1c;
@@ -6,22 +6,22 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+}
 
-  &__container {
-    flex-shrink: 0;
-    height: 770px;
-    width: 380px;
-    background-color: #334247;
-    margin-right: 18px;
-    overflow: hidden;
-    position: relative;
+.price-card {
+  flex-shrink: 0;
+  height: 770px;
+  width: 380px;
+  background-color: #334247;
+  margin-right: 18px;
+  overflow: hidden;
+  position: relative;
 
-    &:last-child {
-      margin-right: 0;
-    }
+  &:last-child {
+    margin-right: 0;
   }
 
-  &__popular {
+  &__bagde {
     position: absolute;
     text-align: center;
     text-transform: uppercase;
@@ -52,9 +52,7 @@
     margin: 0;
   }
 
-  &__cheap,
-  &__medium,
-  &__expensive {
+  &__price {
     margin: 0;
     margin-top: 33px;
     padding: 19px 110px;
@@ -64,21 +62,6 @@
     text-align: center;
   }
 
-  &__cheap,
-  &__btn-green {
-    background-color: #5bb189;
-  }
-
-  &__medium,
-  &__btn-blue {
-    background-color: #3a6ba5;
-  }
-
-  &__expensive,
-  &__btn-orange {
-    background-color: #ec632a;
-  }
-
   &__description {
     margin: 40px 26px 0px 26px;
     font-weight: 300;
@@ -86,8 +69,7 @@
     line-height: 18px;
     text-align: center;
   }
-
-  &__content {
+  &__options-list {
     margin: 40px 0px 0px 0px;
     padding: 0;
     list-style-type: none;
@@ -97,17 +79,11 @@
 
     &-item {
       padding: 16px 21px 16px 22px;
-
-      &:nth-child(odd) {
-        background-color: #2a3438;
-      }
-
       &-checkmark {
         padding-right: 22px;
       }
     }
   }
-
   &__btn-green,
   &__btn-blue,
   &__btn-orange {
@@ -121,5 +97,47 @@
     border-radius: 20px;
     padding: 11px 27px;
     cursor: pointer;
+  }
+
+  &__btn-green {
+    background-color: #5bb189;
+  }
+
+  &__btn-blue {
+    background-color: #3a6ba5;
+  }
+
+  &__btn-orange {
+    background-color: #ec632a;
+  }
+}
+
+.price-card:nth-child(1) .price-card__price {
+  background-color: #5bb189;
+}
+
+.price-card:nth-child(2) .price-card__price {
+  background-color: #3a6ba5;
+}
+
+.price-card:nth-child(3) .price-card__price {
+  background-color: #ec632a;
+}
+
+.price-card:nth-child(1) .price-card__options-list {
+  &-item:nth-child(odd) {
+    background-color: #2a3438;
+  }
+}
+
+.price-card:nth-child(2) .price-card__options-list {
+  &-item:nth-child(odd) {
+    background-color: #2a3438;
+  }
+}
+
+.price-card:nth-child(3) .price-card__options-list {
+  &-item:nth-child(odd) {
+    background-color: #2a3438;
   }
 }
