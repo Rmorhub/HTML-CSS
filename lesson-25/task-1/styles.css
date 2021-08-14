@@ -8,8 +8,8 @@ html {
 }
 
 .price-card {
-  min-width: 1440px;
-  min-height: 100vh;
+  width: 1440px;
+  height: 1000px;
   margin: auto;
   background-color: #141b1c;
   display: flex;
@@ -17,12 +17,10 @@ html {
   align-items: center;
 }
 .price-card__container {
-  height: 770px;
-  width: 380px;
+  max-height: 770px;
+  max-width: 380px;
   background-color: #334247;
   margin: 115px 9px;
-}
-.price-card__container:nth-child(2) {
   overflow: hidden;
 }
 .price-card__popular {
