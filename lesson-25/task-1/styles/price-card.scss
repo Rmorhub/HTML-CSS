@@ -1,40 +1,39 @@
 .price-card {
   width: 1440px;
-  height: 1000px;
-  margin: auto;
+  height: 100vh;
   background-color: #141b1c;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
+  margin: auto;
 
   &__container {
-    max-height: 770px;
-    max-width: 380px;
+    flex-shrink: 0;
+    height: 770px;
+    width: 380px;
     background-color: #334247;
-    margin: 115px 9px;
+    margin-right: 18px;
     overflow: hidden;
+    position: relative;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   &__popular {
-    position: relative;
-
-    &-text {
-      position: absolute;
-      text-align: center;
-      text-transform: uppercase;
-      background-color: #dc3f45;
-      font-size: 14px;
-      font-weight: 700;
-      width: 147px;
-      height: 25px;
-      line-height: 25px;
-      
-      top: 31px;
-      right: -30px;
-      transform: rotate(45deg);
-    }
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #dc3f45;
+    font-size: 14px;
+    font-weight: 700;
+    width: 147px;
+    height: 25px;
+    line-height: 25px;
+    top: 30px;
+    right: -30px;
+    transform: rotate(45deg);
   }
 
   &__title {

@@ -9,24 +9,26 @@ html {
 
 .price-card {
   width: 1440px;
-  height: 1000px;
-  margin: auto;
+  height: 100vh;
   background-color: #141b1c;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 .price-card__container {
-  max-height: 770px;
-  max-width: 380px;
+  flex-shrink: 0;
+  height: 770px;
+  width: 380px;
   background-color: #334247;
-  margin: 115px 9px;
+  margin-right: 18px;
   overflow: hidden;
-}
-.price-card__popular {
   position: relative;
 }
-.price-card__popular-text {
+.price-card__container:last-child {
+  margin-right: 0;
+}
+.price-card__popular {
   position: absolute;
   text-align: center;
   text-transform: uppercase;
@@ -36,7 +38,7 @@ html {
   width: 147px;
   height: 25px;
   line-height: 25px;
-  top: 31px;
+  top: 30px;
   right: -30px;
   transform: rotate(45deg);
 }
