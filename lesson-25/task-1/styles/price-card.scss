@@ -7,7 +7,7 @@
   height: 770px;
   width: 380px;
   margin-right: 18px;
-  background-color: $color-dark-grey;
+  background-color: $color-light-grey;
 
   &:last-child {
     margin-right: 0;
@@ -84,9 +84,9 @@
     list-style-type: none;
 
     &-item {
-      padding: 16px 21px 16px 22px;
+      padding: 16px 21px 16px 59px;
       &:nth-child(odd) {
-        background-color: #2a3438;
+        background-color: $color-dark-grey;
       }
       &-checkmark {
         padding-right: 22px;
@@ -107,5 +107,22 @@
     text-align: center;
     color: $color-white;
     cursor: pointer;
+  }
+}
+
+.item {
+  &_green {
+    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png')
+      no-repeat 22px 50%;
+  }
+
+  &_blue {
+    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png')
+      no-repeat 22px 50%;
+  }
+
+  &_orange {
+    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png')
+      no-repeat 22px 50%;
   }
 }

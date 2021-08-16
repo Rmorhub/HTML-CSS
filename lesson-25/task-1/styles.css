@@ -8,13 +8,13 @@ html {
 }
 
 .page {
-  width: 1440px;
-  height: 100vh;
-  background-color: #141b1c;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+  width: 1440px;
+  height: 100vh;
+  background-color: #141b1c;
 }
 
 .price-card {
@@ -89,7 +89,7 @@ html {
   list-style-type: none;
 }
 .price-card__options-list-item {
-  padding: 16px 21px 16px 22px;
+  padding: 16px 21px 16px 59px;
 }
 .price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
@@ -108,6 +108,16 @@ html {
   text-align: center;
   color: #fff;
   cursor: pointer;
+}
+
+.item_green {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png") no-repeat 22px 50%;
+}
+.item_blue {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png") no-repeat 22px 50%;
+}
+.item_orange {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png") no-repeat 22px 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */
