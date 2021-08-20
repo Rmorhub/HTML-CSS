@@ -1,28 +1,28 @@
 .audience {
   padding: 0 15px;
-  background-color: rgba(0, 161, 198, 0.07);
+  background-color: $background-color-light-blue;
 
   @include for-large-up {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin: 0;
     padding-top: 0;
     padding-bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   &__title {
     margin: 0;
     padding-top: 51px;
+    line-height: 34px;
     text-align: center;
     font-size: 22px;
-    line-height: 34px;
     font-weight: 700;
 
     @include for-large-up {
       margin: 0;
-      padding-top: 0;
       margin-top: 108px;
+      padding-top: 0;
     }
   }
 
@@ -30,26 +30,26 @@
     margin: 0;
     padding: 0;
     @include for-large-up {
-      height: 112px;
-      width: 555px;
       margin: auto;
       margin-top: 24px;
+      height: 112px;
+      width: 555px;
     }
   }
 
   &__subtitle {
-    text-align: center;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 700;
-    letter-spacing: -0.36px;
     margin: 0;
     margin-top: 17px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
 
     @include for-large-up {
       margin: 0;
-      font-size: 56px;
       line-height: 56px;
+      font-size: 56px;
       letter-spacing: -0.5px;
     }
   }
@@ -59,20 +59,20 @@
     padding: 0;
 
     @include for-large-up {
-      height: 72px;
-      width: 555px;
       margin: auto;
       margin-top: 30px;
+      height: 72px;
+      width: 555px;
     }
   }
 
   &__text {
-    text-align: center;
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: 400;
     margin: 0;
     margin-top: 18px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
 
     @include for-large-up {
       margin: 0;
@@ -83,17 +83,15 @@
     margin-top: 30px;
     @include for-large-up {
       justify-content: center;
-      margin-top: 30px;
     }
     &-btn-down {
-      color: #000;
       margin-top: 12px;
+      color: $text-color-black;
 
       @include for-large-up {
-      margin: 0;
-      margin-left: 10px;
-    }
-
+        margin: 0;
+        margin-left: 10px;
+      }
     }
   }
 
@@ -103,24 +101,24 @@
     align-items: center;
 
     @include for-large-up {
-      width: 1140px;
       flex-direction: row;
       justify-content: center;
       margin: auto;
       margin-top: 110px;
       margin-bottom: 111px;
+      width: 1140px;
     }
   }
 
   &__interactive-square {
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
     height: 300px;
     width: 290px;
-    background-color: #fff;
+    background-color: $background-color-white;
+    box-shadow: $box-shadow-light;
     border-radius: 8px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    margin-top: 15px;
 
     @include for-large-up {
       margin: 0;
@@ -128,8 +126,8 @@
     }
 
     &:hover {
-      background-color: #3141c5;
-      color: #fff;
+      color: $text-color-white;
+      background-color: $background-color-blue;
       cursor: pointer;
     }
 
@@ -154,11 +152,11 @@
     margin-top: 22px;
 
     &-text {
-      text-align: center;
       margin: 0px 20px 33px 20px;
+      line-height: 28px;
+      text-align: center;
       font-size: 22px;
       font-weight: 700;
-      line-height: 28px;
     }
   }
 }

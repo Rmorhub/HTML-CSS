@@ -16,19 +16,19 @@
 }
 
 html {
-  font-size: 16px;
   font-family: 'Work Sans', sans-serif;
-  color: #2b292d;
+  font-size: 16px;
+  color: $text-color-grey;
 }
 
 .page {
   width: 100%;
 
   @include for-large-up {
-    max-width: 1400px;
-    margin: auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
+    max-width: 1400px;
   }
 }

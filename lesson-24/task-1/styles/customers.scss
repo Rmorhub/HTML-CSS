@@ -3,34 +3,34 @@
   flex-direction: column;
 
   @include for-large-up {
-    width: 1140px;
-    margin: auto;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
-    flex-direction: row;
+    width: 1140px;
   }
 
   &__row {
     display: flex;
 
     @include for-large-up {
-      flex: 1;
       justify-content: space-around;
+      flex: 1;
     }
   }
 
   &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
     height: 94px;
     width: 107px;
-    border-bottom: 1px solid #e3e3e3;
-    border-right: 1px solid #e3e3e3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
+    border-right: 1px solid $border-color-light-grey;
+    border-bottom: 1px solid $border-color-light-grey;
 
     &:last-child {
       border-right: none;

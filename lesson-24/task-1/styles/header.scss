@@ -1,17 +1,17 @@
 .header {
-  height: 64px;
-  width: 100%;
-  background-color: #fff;
   display: flex;
   align-items: center;
   padding-left: 15px;
+  height: 64px;
+  width: 100%;
+  background-color: $background-color-white;
 
   @include for-large-up {
-    background-color: #f3c6bd;
-    width: 1140px;
-    height: 62px;
-    margin: auto;
     display: flex;
+    margin: auto;
+    height: 62px;
+    width: 1140px;
+    background-color: $background-color-light-coral;
   }
 
   &__button {
@@ -23,11 +23,11 @@
   }
 
   &__menu-button {
+    margin-left: auto;
+    height: 100%;
     width: 58px;
     border: none;
-    border-left: 1px solid #00000026;
-    height: 100%;
-    margin-left: auto;
+    border-left: 1px solid $border-color-black;
     background: transparent;
 
     @include for-large-up {
@@ -36,10 +36,10 @@
   }
 
   &__menu-icon {
-    width: 18px;
-    height: 13px;
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
     display: inline-block;
+    height: 13px;
+    width: 18px;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
   }
 
   .logo__description {
@@ -56,17 +56,17 @@
 
   @include for-large-up {
     display: block;
-    margin-left: auto;
     margin-top: 7px;
     margin-right: 75px;
+    margin-left: auto;
   }
 
   &__item {
-    color: #2b292d;
-    text-decoration: none;
+    margin-right: 50px;
     line-height: 25px;
     font-size: 18px;
-    margin-right: 50px;
+    color: $text-color-grey;
+    text-decoration: none;
 
     &_selected {
       font-weight: 700;
@@ -79,52 +79,52 @@
 
   &__arrow {
     display: inline-block;
+    margin-left: 11px;
     height: 5px;
     width: 8px;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
-    margin-left: 11px;
   }
 }
 .logo {
   display: flex;
 
   &__image {
-    width: 48px;
-    height: 48px;
     margin-right: 13px;
+    height: 48px;
+    width: 48px;
 
     @include for-large-up {
-      width: 60px;
-      height: 60px;
       margin-right: 15px;
+      height: 60px;
+      width: 60px;
     }
   }
 
   &__text {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
 
     @include for-large-up {
+      line-height: 25px;
       font-size: 18px;
       font-weight: 400;
-      line-height: 25px;
-      color: rgba(43, 41, 45, 0.6);
+      color: $text-color-black-opacity;
     }
   }
 
   &__name {
-    font-size: 20px;
     line-height: 25px;
+    font-size: 20px;
     font-weight: 700;
     @include for-large-up {
-      color: rgba(43, 41, 45, 1);
+      color: $text-color-black-opacity-one;
     }
   }
 }
 
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $background-color-light-coral;
 
   @include for-large-up {
     padding-top: 39px;
